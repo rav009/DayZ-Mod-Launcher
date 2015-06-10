@@ -22,10 +22,6 @@ namespace DayZ_Mod_Launcher
 
         public PathMod(string armapath, string oapath)
         {
-            if(!armapath.EndsWith("\\"))
-            {
-                armapath += "\\";
-            }
             if (!oapath.EndsWith("\\"))
             {
                 oapath += "\\";
@@ -83,12 +79,12 @@ namespace DayZ_Mod_Launcher
             if (BE == true)
             {
                 exepath = this._oapath  + this._arma2oaexebename;
-                modparam = "0 0 \"-mod=" + this._armapath.Remove(this._armapath.Length - 1) + ";Expansion;";
+                modparam = "0 0 \"-mod=" + this._armapath + ";Expansion;";
             }
             else
             {
                 exepath = this._oapath + this._arma2oaexename;
-                modparam = "\"-mod=" + this._armapath.Remove(this._armapath.Length - 1) + ";Expansion;";
+                modparam = "\"-mod=" + this._armapath + ";Expansion;";
             }
             foreach(string mod in mods)
             {
