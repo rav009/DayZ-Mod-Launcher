@@ -83,12 +83,12 @@ namespace DayZ_Mod_Launcher
             if (BE == true)
             {
                 exepath = this._oapath  + this._arma2oaexebename;
-                modparam = "0 0 \"-mod=" + this._armapath + ";Expansion;";
+                modparam = "0 0 \"-mod=" + this._armapath.Remove(this._armapath.Length - 1) + ";Expansion;";
             }
             else
             {
                 exepath = this._oapath + this._arma2oaexename;
-                modparam = "\"-mod=" + this._armapath + ";Expansion;";
+                modparam = "\"-mod=" + this._armapath.Remove(this._armapath.Length - 1) + ";Expansion;";
             }
             foreach(string mod in mods)
             {
