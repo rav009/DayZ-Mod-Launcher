@@ -21,19 +21,18 @@ H:\DayZ Mod Launcher\DayZ Mod Launcher\obj\Release\DayZ Mod Launcher_MarkupCompi
 H:\DayZ Mod Launcher\DayZ Mod Launcher\obj\Release\DayZ Mod Launcher.g.resources
 H:\DayZ Mod Launcher\DayZ Mod Launcher\obj\Release\DayZ_Mod_Launcher.Properties.Resources.resources
 H:\DayZ Mod Launcher\DayZ Mod Launcher\obj\Release\DayZ Mod Launcher.csproj.GenerateResource.Cache
-D:\tmp-program\DayZ Mod Launcher\DayZ Mod Launcher\obj\Release\DayZ Mod Launcher.exe
-D:\tmp-program\DayZ Mod Launcher\DayZ Mod Launcher\obj\Release\DayZ Mod Launcher.pdb
-D:\tmp-program\DayZ Mod Launcher\DayZ Mod Launcher\bin\Release\DayZ Mod Launcher.exe
-D:\tmp-program\DayZ Mod Launcher\DayZ Mod Launcher\bin\Release\DayZ Mod Launcher.pdb
-D:\tmp-program\DayZ Mod Launcher\DayZ Mod Launcher\bin\Release\WPFToolkit.dll
-D:\tmp-program\DayZ Mod Launcher\DayZ Mod Launcher\bin\Release\WPFToolkit.pdb
-D:\tmp-program\DayZ Mod Launcher\DayZ Mod Launcher\obj\Release\DayZ Mod Launcher.csprojResolveAssemblyReference.cache
-D:\tmp-program\DayZ Mod Launcher\DayZ Mod Launcher\obj\Release\MainWindow.baml
-D:\tmp-program\DayZ Mod Launcher\DayZ Mod Launcher\obj\Release\MainWindow.g.cs
-D:\tmp-program\DayZ Mod Launcher\DayZ Mod Launcher\obj\Release\App.g.cs
-D:\tmp-program\DayZ Mod Launcher\DayZ Mod Launcher\obj\Release\DayZ Mod Launcher_MarkupCompile.cache
-D:\tmp-program\DayZ Mod Launcher\DayZ Mod Launcher\obj\Release\DayZ Mod Launcher.g.resources
-D:\tmp-program\DayZ Mod Launcher\DayZ Mod Launcher\obj\Release\DayZ_Mod_Launcher.Properties.Resources.resources
-D:\tmp-program\DayZ Mod Launcher\DayZ Mod Launcher\obj\Release\DayZ Mod Launcher.csproj.GenerateResource.Cache
-D:\tmp-program\DayZ Mod Launcher\DayZ Mod Launcher\obj\Release\ExpressionDark.baml
-D:\tmp-program\DayZ Mod Launcher\DayZ Mod Launcher\obj\Release\App.baml
+D:\tmp-program\DayZ Mod Launcher\DayZ Mod launcher\bin\Release\DayZ Mod Launcher.exe
+D:\tmp-program\DayZ Mod Launcher\DayZ Mod launcher\bin\Release\DayZ Mod Launcher.pdb
+D:\tmp-program\DayZ Mod Launcher\DayZ Mod launcher\bin\Release\WPFToolkit.dll
+D:\tmp-program\DayZ Mod Launcher\DayZ Mod launcher\bin\Release\WPFToolkit.pdb
+D:\tmp-program\DayZ Mod Launcher\DayZ Mod launcher\obj\Release\ExpressionDark.baml
+D:\tmp-program\DayZ Mod Launcher\DayZ Mod launcher\obj\Release\MainWindow.baml
+D:\tmp-program\DayZ Mod Launcher\DayZ Mod launcher\obj\Release\App.baml
+D:\tmp-program\DayZ Mod Launcher\DayZ Mod launcher\obj\Release\MainWindow.g.cs
+D:\tmp-program\DayZ Mod Launcher\DayZ Mod launcher\obj\Release\App.g.cs
+D:\tmp-program\DayZ Mod Launcher\DayZ Mod launcher\obj\Release\DayZ Mod Launcher_MarkupCompile.cache
+D:\tmp-program\DayZ Mod Launcher\DayZ Mod launcher\obj\Release\DayZ Mod Launcher.g.resources
+D:\tmp-program\DayZ Mod Launcher\DayZ Mod launcher\obj\Release\DayZ_Mod_Launcher.Properties.Resources.resources
+D:\tmp-program\DayZ Mod Launcher\DayZ Mod launcher\obj\Release\DayZ Mod Launcher.csproj.GenerateResource.Cache
+D:\tmp-program\DayZ Mod Launcher\DayZ Mod launcher\obj\Release\DayZ Mod Launcher.exe
+D:\tmp-program\DayZ Mod Launcher\DayZ Mod launcher\obj\Release\DayZ Mod Launcher.pdb

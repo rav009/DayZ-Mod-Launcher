@@ -86,7 +86,12 @@ namespace DayZ_Mod_Launcher
                 MessageBox.Show(err_path_oa);
                 return;
             }
-            _rm.Write(_pm._armapath, _pm._oapath);
+            try
+            {
+                _rm.Write(_pm._armapath, _pm._oapath);
+            }
+            catch
+            { }
             List<string> paths = _pm.LoadModNames();
             if(paths == null || paths.Count == 0)
             {
@@ -148,7 +153,14 @@ namespace DayZ_Mod_Launcher
                 }
                 string[] rs =_pm.GetRunCmd(mods, BE_checkbox.IsChecked);
                 //MessageBox.Show(rs[0] + " " + rs[1]);
-                System.Diagnostics.Process.Start(rs[0], rs[1]);
+                try
+                {
+                    System.Diagnostics.Process.Start(rs[0], rs[1]);
+                }
+                catch(Exception ext)
+                {
+                    MessageBox.Show(ext.Message);
+                }
             }
         }
 
