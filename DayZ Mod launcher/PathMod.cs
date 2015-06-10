@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,6 +22,14 @@ namespace DayZ_Mod_Launcher
 
         public PathMod(string armapath, string oapath)
         {
+            if(!armapath.EndsWith("\\"))
+            {
+                armapath += "\\";
+            }
+            if (!oapath.EndsWith("\\"))
+            {
+                oapath += "\\";
+            }
             _armapath = armapath;
             _oapath = oapath;
         }
@@ -74,17 +82,17 @@ namespace DayZ_Mod_Launcher
             string modparam = "";
             if (BE == true)
             {
-                exepath = this._oapath + "\\" + this._arma2oaexebename;
+                exepath = this._oapath  + this._arma2oaexebename;
                 modparam = "0 0 \"-mod=" + this._armapath + ";Expansion;";
             }
             else
             {
-                exepath = this._oapath + "\\" + this._arma2oaexename;
+                exepath = this._oapath + this._arma2oaexename;
                 modparam = "\"-mod=" + this._armapath + ";Expansion;";
             }
             foreach(string mod in mods)
             {
-                modparam += this._oapath + @"\@" + mod + ";";
+                modparam += this._oapath + @"@" + mod.Trim() + ";";
             }
             modparam += "\"";
             string[] rs = new string[2];
