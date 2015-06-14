@@ -156,6 +156,7 @@ namespace DayZ_Mod_Launcher
                 try
                 {
                     System.Diagnostics.Process.Start(rs[0], rs[1]);
+                    this.WindowState = WindowState.Minimized;
                 }
                 catch(Exception ext)
                 {
