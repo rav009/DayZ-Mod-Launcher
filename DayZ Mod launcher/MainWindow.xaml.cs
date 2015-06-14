@@ -165,6 +165,20 @@ namespace DayZ_Mod_Launcher
             }
         }
 
+        private void Button_Click_close(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Button_Click_min(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+
+        private void Mouse_moveHandler(object sender, MouseEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed && e.Source == this) this.DragMove();
+        }
 
     }
 }

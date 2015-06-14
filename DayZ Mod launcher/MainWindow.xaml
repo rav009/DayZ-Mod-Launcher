@@ -1,17 +1,18 @@
 ﻿<Window x:Class="DayZ_Mod_Launcher.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="DayZ Mod Launcher" Height="488" Width="760" Background="#373737" ResizeMode="CanMinimize" WindowStyle="None">
+        Title="DayZ Mod Launcher" Height="488" Width="760" Background="#373737" ResizeMode="CanMinimize" WindowStyle="None" MouseMove="Mouse_moveHandler">
 
     <Grid Margin="0,30,0,0">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="71*"/>
             <ColumnDefinition Width="309*"/>
         </Grid.ColumnDefinitions>
-        <DockPanel HorizontalAlignment="Left" Height="30" LastChildFill="False" Margin="0,-30,0,0" VerticalAlignment="Top" Width="760" Grid.ColumnSpan="2" >
-            <TextBlock Height="26" TextWrapping="NoWrap" Text="DayZ Mod Launcher" VerticalAlignment="Center" Margin="5,0,0,0" Foreground="White" FontWeight="Bold"/>
-            <Button Content="Button" Height="24" VerticalAlignment="Top" HorizontalAlignment="Right" Width="30"/>
-        </DockPanel>
+        <Canvas Name="titlecanvas" HorizontalAlignment="Left" Height="30" Margin="0,-30,0,0" VerticalAlignment="Top" Width="760" Grid.ColumnSpan="2" >
+            <TextBlock Height="20" TextWrapping="NoWrap" Text="DayZ Mod Launcher" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" Canvas.Top="7" Canvas.Left="10"/>
+            <Button Content="X" Height="18" VerticalAlignment="Center" HorizontalAlignment="Right" Width="18" Canvas.Left="732" Canvas.Top="6" Click="Button_Click_close"  />
+            <Button Content="-" Height="18" VerticalAlignment="Center" HorizontalAlignment="Right" Width="18" Canvas.Left="712" Canvas.Top="6" Click="Button_Click_min" />
+        </Canvas>
 
         <Label Content="ARMA2 OA Path&#xD;&#xA;" HorizontalAlignment="Left" Margin="50,57,0,0" VerticalAlignment="Top" Width="111" Height="30" Grid.ColumnSpan="2"/>
         <TextBox Name="pathtext_oa" HorizontalAlignment="Left" Height="23" Margin="28.209,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="429" Grid.Column="1" />

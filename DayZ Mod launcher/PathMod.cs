@@ -26,8 +26,13 @@ namespace DayZ_Mod_Launcher
             {
                 oapath += "\\";
             }
-            _armapath = armapath;
             _oapath = oapath;
+            if (armapath.EndsWith("\\"))
+            {
+                armapath.Remove(armapath.Length - 1);
+            }
+            _armapath = armapath;
+            
         }
 
         public bool TestPath(string path, string exename)
